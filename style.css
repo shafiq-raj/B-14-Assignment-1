@@ -1,0 +1,64 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* nav start */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 5%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #575757;
+}
+.right-side button{
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: #1D4ED8;
+    border: none;
+    color: white;
+}
+
+/* banner start here */
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('./images/banner.jpg');
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: grid;
+    justify-content: center;
+   }
+.header-content{
+    color: white;
+    text-align: center;
+      
+}
+.header-content h1{
+    padding-top: 80px;
+}
+.header-content button{
+    margin-top: 200px;
+    border-radius: 5px;
+    background-color: #1D4ED8;
+    border: none;
+    color: white;
+    width: 30%;
+    padding: 10px 0;
+}
+.header-content p{
+        margin-top: 15px;
+}
+
+
