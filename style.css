@@ -237,3 +237,21 @@ hr{
     color:#64748b;
     font-size:16px;
 }
+
+/* footer start here */
+.footer-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 5%;
+    background-color: #0D1B2A;
+    height: 40px;
+}
+.footer-parent p{
+    color: #FFFFFF;
+    opacity: 40%;
+}
+.right-content{
+    display: flex;
+    gap: 15px;
+}
