@@ -61,4 +61,35 @@ header{
         margin-top: 15px;
 }
 
+/* speakers section start */
 
+.speakers-parent{
+text-align: center;
+margin: 30px 50px;
+}
+
+.speakers-container{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    object-fit: cover;
+    gap: 20px;
+    padding: 5px, 5%;
+}
+.speakers-card{
+margin: 10px;
+}
+.speakers-card img{
+width: 100%;
+border-radius: 5px 5px 0 0;
+}
+.speakers-card h5{
+color: #2563EB;
+}
+.speakers-card h3{
+font-weight: bold;
+}
+.speakers-card p{
+
+color: #575757;
+}
